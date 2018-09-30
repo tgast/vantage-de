@@ -7,7 +7,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2018-09-29 15:37+0200\n"
+"PO-Revision-Date: 2018-09-30 08:46+0200\n"
 "Language-Team: Deutsch\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -315,8 +315,8 @@ msgid ""
 "/*translators:1:pluginnames.*/This theme recommends the following plugin: "
 "%1$s."
 msgid_plural "This theme recommends the following plugins: %1$s."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Dieses Theme empfiehlt das folgende Plugin: %1$s."
+msgstr[1] "Dieses Theme empfiehlt die folgenden Plugins: %1$s."
 
 #: inc/class-tgm-plugin-activation.php:346
 msgid ""
@@ -326,13 +326,17 @@ msgid_plural ""
 "The following plugins need to be updated to their latest version to ensure "
 "maximum compatibility with this theme: %1$s."
 msgstr[0] ""
+"Das folgende Plugin muss auf die neueste Version aktualisiert werden, um die "
+"maximale Kompatibilität mit diesem Theme zu gewährleisten: %1$s."
 msgstr[1] ""
+"Die folgenden Plugins müssen auf die neueste Version aktualisiert werden, um "
+"die maximale Kompatibilität mit diesem Theme zu gewährleisten: %1$s."
 
 #: inc/class-tgm-plugin-activation.php:352
 msgid "/*translators:1:pluginnames.*/There is an update available for: %1$s."
 msgid_plural "There are updates available for the following plugins: %1$s."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Eine Aktualisierung ist verfügbar für: %1$s."
+msgstr[1] "Es sind Updates verfügbar für die folgenden Plugins: %1$s."
 
 #: inc/class-tgm-plugin-activation.php:358
 msgid ""
@@ -340,74 +344,78 @@ msgid ""
 "inactive: %1$s."
 msgid_plural "The following required plugins are currently inactive: %1$s."
 msgstr[0] ""
+"Das folgende Plugin wird benötigt, ist derzeit aber nicht aktiv: %1$s."
 msgstr[1] ""
+"Die folgenden Plugins werden benötigt, sind derzeit aber nicht aktiv: %1$s."
 
 #: inc/class-tgm-plugin-activation.php:364
 msgid ""
 "/*translators:1:pluginnames.*/The following recommended plugin is currently "
 "inactive: %1$s."
 msgid_plural "The following recommended plugins are currently inactive: %1$s."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Das folgende empfohlene Plugin ist derzeit nicht aktiv: %1$s."
+msgstr[1] "Die folgenden empfohlenen Plugins sind derzeit nicht aktiv: %1$s."
 
 #: inc/class-tgm-plugin-activation.php:370
 msgid "Begin installing plugin"
 msgid_plural "Begin installing plugins"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Beginne mit der Installation des Plugins"
+msgstr[1] "Beginne mit der Installation der Plugins"
 
 #: inc/class-tgm-plugin-activation.php:375
 msgid "Begin updating plugin"
 msgid_plural "Begin updating plugins"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Beginne mit der Aktualisierung des Plugins"
+msgstr[1] "Beginne mit der Aktualisierung derPlugins"
 
 #: inc/class-tgm-plugin-activation.php:380
 msgid "Begin activating plugin"
 msgid_plural "Begin activating plugins"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Beginne mit der Aktivierung des Plugins"
+msgstr[1] "Beginne mit der Aktivierung der Plugins"
 
 #: inc/class-tgm-plugin-activation.php:385
 msgid "Return to Required Plugins Installer"
-msgstr ""
+msgstr "Zur Installation der benötigten Plugins zurückkehren"
 
 #: inc/class-tgm-plugin-activation.php:386,
 #: inc/class-tgm-plugin-activation.php:827,
 #: inc/class-tgm-plugin-activation.php:2533,
 #: inc/class-tgm-plugin-activation.php:3580
 msgid "Return to the Dashboard"
-msgstr ""
+msgstr "Zum Dashboard zurückkehren"
 
 #: inc/class-tgm-plugin-activation.php:387,
 #: inc/class-tgm-plugin-activation.php:3159
 msgid "Plugin activated successfully."
-msgstr ""
+msgstr "Plugin erfolgreich aktiviert"
 
 #: inc/class-tgm-plugin-activation.php:388,
 #: inc/class-tgm-plugin-activation.php:2952
 msgid "The following plugin was activated successfully:"
 msgid_plural "The following plugins were activated successfully:"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Das folgende Plugin wurde erfolgreich aktiviert:"
+msgstr[1] "Die folgenden Plugins wurden erfolgreich aktiviert:"
 
 #: inc/class-tgm-plugin-activation.php:390
 msgid "No action taken. Plugin %1$s was already active."
-msgstr ""
+msgstr "Keine Aktion erforderlich. Plugin %1$s war bereits aktiv."
 
 #: inc/class-tgm-plugin-activation.php:392
 msgid ""
 "Plugin not activated. A higher version of %s is needed for this theme. "
 "Please update the plugin."
 msgstr ""
+"Plugin nicht aktiviert. Eine neuere Version von %s wird für dieses Theme "
+"benötigt. Bitte aktualisiere das Plugin."
 
 #: inc/class-tgm-plugin-activation.php:394
 msgid "All plugins installed and activated successfully. %1$s"
-msgstr ""
+msgstr "Alle Plugins erfolgreich installiert und aktiviert. %1$s"
 
 #: inc/class-tgm-plugin-activation.php:395
 msgid "Dismiss this notice"
-msgstr ""
+msgstr "Diese Nachricht verwerfen"
 
 #: inc/class-tgm-plugin-activation.php:396
 msgid ""
@@ -2244,18 +2252,24 @@ msgstr "Nichts gefunden"
 msgid ""
 "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr ""
+"Bereit, deinen ersten Beitrag zu veröffentlichen? <a href=„%1$s“>Hier "
+"geht&rsquo;s los</a>."
 
 #: no-results.php:27
 msgid ""
 "Sorry, but nothing matched your search terms. Please try again with some "
 "different keywords."
 msgstr ""
+"Entschuldige, aber nicht passte zu deinen Suchanfragen. Versuch es nochmal "
+"mit anderen Suchbegriffen."
 
 #: no-results.php:32
 msgid ""
 "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
 "searching can help."
 msgstr ""
+"Es scheint, dass wir nicht finden können, wonach du suchst. Vielleicht "
+"möchtest du eine Suchanfrage starten."
 
 #: parts/footer-vertical.php:20, parts/footer.php:20
 msgid "A <a href=\"%s\">SiteOrigin</a> Theme"
@@ -2271,11 +2285,11 @@ msgstr ""
 
 #: templates/template-full-notitle.php:26
 msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
-msgstr ""
+msgstr "Weiterlesen <span class=„meta-nav“>&rarr;</span>"
 
 #: tour/tour.php:8
 msgid "Welcome to Vantage"
-msgstr ""
+msgstr "Willkommen bei Vintage"
 
 #: tour/tour.php:9
 msgid ""
