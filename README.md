@@ -1,4 +1,7 @@
 # German language files for Vantage Theme
+
+==**Please note: This project is discontinued on GitHub. You'll find [new versions only on GitLab](https://gitlab.com/tgast/vantage-de_de).**==
+
 This is my first try to translate the Vantage theme for Wordpress into German language. I needed this for a project and thought this might be useful for others, too.
 
 **Please beware: So far, I translated only parts of the original language file – this is work in progress.**
